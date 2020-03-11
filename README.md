@@ -3,10 +3,10 @@ a prometheus example repo
 
 ### build and deploy the all into the cluster
 
-`
+```shell script
 hack/build.sh
 helm install testmetric deploy/testmetric
-`
+```
 
 ### config prometheus and reload the config
 ```shell script
